@@ -4,7 +4,6 @@ import lombok.*;
 
 
 import javax.persistence.*;
-import java.util.List;
 
 //@EqualsAndHashCode(callSuper = true)
 @Data

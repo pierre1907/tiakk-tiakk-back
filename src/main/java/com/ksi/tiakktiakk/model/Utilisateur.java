@@ -3,9 +3,7 @@ package com.ksi.tiakktiakk.model;
 import com.ksi.tiakktiakk.liste_enum.TypePieceIdentite;
 import lombok.*;
 
-import javax.management.relation.Role;
 import javax.persistence.*;
-import java.util.List;
 import java.util.Random;
 import java.util.Set;
 

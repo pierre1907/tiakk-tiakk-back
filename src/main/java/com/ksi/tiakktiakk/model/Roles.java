@@ -4,7 +4,6 @@ import com.ksi.tiakktiakk.liste_enum.RoleEnum;
 import lombok.*;
 
 import javax.persistence.*;
-import java.util.List;
 import java.util.Set;
 
 @EqualsAndHashCode(callSuper = true)
