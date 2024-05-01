@@ -33,5 +33,18 @@ public class UtilisateurValidator implements Validator {
             errors.rejectValue("adresse.telephone1", "NotEmpty",
                     "Veuillez fourni un numéro de téléphone valide");
         }
+
+        //verification de l'email
+        if ((utilisateur.getEmail() == null || utilisateur.getEmail().isEmpty())) {
+            errors.rejectValue("email", "NotEmpty",
+                    "Veuillez fournir un email valide");
+        }
+
+        //verification de la photo
+        if ((utilisateur.getPhoto() ==null || utilisateur.getPhoto().isEmpty())) {
+            errors.rejectValue("photo", "NotEmpty",
+                    "Veuillez fournir une photo");
+        }
+
     }
 }
